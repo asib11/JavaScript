@@ -7,3 +7,6 @@ var name = "asib ahmed";
 
 //boolean
 var wishes = true;
+
+var number = "32";
+console.log(parseFloat(number))
