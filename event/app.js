@@ -19,3 +19,22 @@ function makeYellow(){
 
 const greenColor = document.getElementById("makeColorGreen");
 greenColor.onclick = () =>(document.body.style.backgroundColor = 'green');
+
+//type 4
+const pink = document.getElementById("pink");
+pink.addEventListener("click", makePink);
+
+function makePink(){
+    document.body.style.backgroundColor = "pink";
+}
+
+//type 4 other
+
+const goldenrod = document.getElementById("goldenrod");
+goldenrod.addEventListener("click",function(){
+    document.body.style.backgroundColor = "goldenrod";
+})
+
+//type 4 final
+
+document.getElementById("purple").addEventListener("click",()=>document.body.style.backgroundColor = "purple" )
