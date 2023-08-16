@@ -1,6 +1,10 @@
-const input = document.getElementById("text");
 const btn = document.querySelector("#post-btn");
 btn.addEventListener('click',()=> {
+    const input = document.getElementById("text");
     const tweetBox = input.value;
-    console.log(tweetBox);
+    const postList = document.getElementById("post-list");
+    const p = document.createElement("p");
+    p.innerText = tweetBox;
+    postList.append(p);
+    input.value = '';
 });
