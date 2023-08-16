@@ -9,6 +9,7 @@ btn.addEventListener('click',()=> {
     input.value = '';
 });
 
+//delete btn work
 document.getElementById("delete").addEventListener("keyup", (event)=>{
     const text = event.target.value;
     const deleteBtn = document.getElementById("delete-btn");
