@@ -4,7 +4,7 @@
 2.get element or elements from dom
     2-1: getElementById (use many times)
     2-2: getElementSByClassName
-    2-3: querySelector
+    2-3: querySelector (sometimes use when select something all of the parent element)
     2-4: querySelectorAll
 
 3. Dynamically add element to the dom: document.createElement
