@@ -7,3 +7,5 @@ console.log(result);
 const text = ['asib', 'ahmed', 'hamza'];
 const upperText = text.map(x => x[0].toUpperCase()+x.slice(1)); //slice work
 console.log(upperText);
+
+text.forEach(x => console.log(x.toUpperCase())); // no return given
