@@ -8,10 +8,17 @@
     <title>meal</title>
 </head>
 <body>
+    <header>
+        <h1 class="d-flex justify-content-center align-items-center mb-2">FooD Vandar</h1>
+        <div class="d-flex justify-content-center align-items-center mb-5">
+            <input id="search-text" class="text-center" type="text" placeholder="Search">
+            <button class="text-bg-primary" onclick="searchMeal()">Food Search</button>
+        </div>
+    </header>
 
     <main>
         <!-- meal container -->
-        <section>
+        <section class="container">
             <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
             </div>
         </section>
