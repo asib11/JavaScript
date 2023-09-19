@@ -46,7 +46,13 @@ const loadMealDetails = idMeal =>{
 };
 
 const displayMealDetails = meal =>{
+    console.log(meal)
     document.getElementById('mealDetailsLabel').innerText = meal.strMeal;
+    const body = document.getElementById('mealDetailsBody');
+    body.innerHTML = `
+    <img src="${meal.strMealThumb}" class="img-fluid" alt="...">
+    <p>${meal.strInstructions}</p>
+    `
 
 }
 
