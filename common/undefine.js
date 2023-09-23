@@ -1,19 +1,19 @@
-// 8 ways to get undefine
+// 8 ways to get undefined
 //1. variable that is not initialize will give
 let a;
-console.log(a); //will get undefine
+console.log(a); //will get undefined
 
 //2. function with no return
 function add(a,b){
     a+b;
 }
-console.log(add(10,5)) // get undefine
+console.log(add(10,5)) // get undefined
 
-//3. parameter that is not passed will give undefine
+//3. parameter that is not passed will give undefined
 function para(a,b,c,d){
     return a,b,c,d;
 }
-console.log(para(10,5)) //get undefine
+console.log(para(10,5)) //get undefined
 
 //4. if return has nothing on the right side will give undefined
 //5. property that does not exists on an obaject will give undefined
