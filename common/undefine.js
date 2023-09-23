@@ -21,3 +21,7 @@ console.log(para(10,5)) //get undefined
 //7. deleting an element inside an array
 //8. set a value directly to undefined
 // example: const some = undefined;//get undefined. should use const some = null;
+
+
+//truty and falsy
+// In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
