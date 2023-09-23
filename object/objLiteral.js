@@ -10,9 +10,10 @@ player.bat(); //method call
 //simple way
 const baby = {
     name: 'asib',
-    age: 26, 
-    annualSalary: ()=>{
-        return 1000*12
+    age: 26,
+    salary: 10000, 
+    annualSalary: function(){ // ei type method a arrow function use krle udefine asbe
+        return this.salary*12;
     }
 };
 console.log(baby);
