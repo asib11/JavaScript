@@ -27,7 +27,7 @@ const mealLoad = meals =>{
             
         </div>
         
-        `
+        `;
         //step 4: append 
         mealcontainer.append(mealDiv);
     })
@@ -68,8 +68,11 @@ const displayMealDetails = meal =>{
     const body = document.getElementById('mealDetailsBody');
     body.innerHTML = `
     <img src="${meal.strMealThumb}" class="img-fluid" alt="...">
+    <p><b>Area:</b> ${meal.strArea}</p>
+    <p><b>Catagory:</b> ${meal.strCategory}</p>
     <p>${meal.strInstructions}</p>
-    `
+    <p><b>Youtube Link:</b><a href=${meal.strYoutube} target="_blank">${meal.strYoutube}</a></p>
+    `;
 
 }
 
