@@ -19,3 +19,8 @@ const promptShow = ()=>{
     const name = prompt('plase inter your name');
     console.log(name);
 }
+
+//api
+//url
+//loaction
+//history
